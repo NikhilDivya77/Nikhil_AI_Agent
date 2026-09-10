@@ -660,7 +660,7 @@ Always behave consistently with this personality and these relationships.
 // ==================================================
 
 const chat = ai.chats.create({
-    model: "gemini-3.6-flash",
+    model: "gemini-3.8-flash",
 
     config: {
         systemInstruction: systemInstruction
