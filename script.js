@@ -7,7 +7,7 @@ import { GoogleGenAI } from "https://cdn.jsdelivr.net/npm/@google/genai/+esm";
 
 
 const ai = new GoogleGenAI({
-    apiKey: "AQ.Ab8RN6Lr6rWzXnWItwEwqIGT4AWjenDkbxndKnAXUlR3wJbaYw"
+    apiKey: process.env.GEMINI_API_KEY
 });
 
 
